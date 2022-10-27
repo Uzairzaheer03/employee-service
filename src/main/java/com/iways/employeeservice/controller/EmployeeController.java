@@ -3,6 +3,7 @@ package com.iways.employeeservice.controller;
 import com.iways.employeeservice.domain.Employee;
 import com.iways.employeeservice.service.EmployeeService;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.*;
 
 
@@ -17,10 +18,11 @@ public class EmployeeController {
     private EmployeeService employeeService = null;
 
     public EmployeeController(EmployeeService employeeService) {
+
         this.employeeService = employeeService;
     }
 
-    @GetMapping("/employees")
+    @GetMapping("/employee")
     public List<Employee> getAllEmployees(){
         return Arrays.asList(
                 new Employee("name", "address", "phone", "cnic"),
@@ -49,10 +51,21 @@ public class EmployeeController {
     public List<Employee> getAllEmployee() {
         return employeeService.getAllEmployees();
     }*/
-    @GetMapping("/employee")
+    @GetMapping("/employees")
         public List<Employee> getAllEmployee(){
-            return employeeService.getAllEmployee();
+
+        return employeeService.getAllEmployee();
         }
+
+    @GetMapping("/employeeByPage")
+        public Page<Employee> getAllEmployee(
+                @RequestParam (value = "pageNumber", defaultValue = "0", required = false) Integer pageNumber,
+                @RequestParam (value = "pageSize", defaultValue = "3", required = false) Integer pageSize
+                ){
+
+        return employeeService.getAllEmployee(pageNumber, pageSize);
+
+    }
 
 
 }
