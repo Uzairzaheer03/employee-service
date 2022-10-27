@@ -1,6 +1,9 @@
 package com.iways.employeeservice.service;
 import com.iways.employeeservice.domain.Employee;
 import com.iways.employeeservice.employeeservice.repository.EmployeeRepository;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -51,4 +54,15 @@ public class EmployeeService {
         return employees;
 
     }
+    public Page<Employee> getAllEmployee(Integer pageNumber, Integer pageSize){
+
+        Pageable pageable = PageRequest.of(pageNumber, pageSize);
+        Page<Employee> pageEmployee = this.employeeRepository.findAll(pageable);
+
+        List<Employee> employees = pageEmployee.getContent();
+                return pageEmployee;
+
+    }
+
+
 }
