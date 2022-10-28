@@ -6,7 +6,9 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.*;
 
-
+import javax.validation.Valid;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.Size;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
@@ -30,7 +32,7 @@ public class EmployeeController {
 
     }
     @PostMapping("/create")
-    public String create(@RequestParam String name, @RequestParam String address,@RequestParam String phone,@RequestParam String cnic){
+    public String create(@Valid @NotEmpty  @RequestParam String name, @Valid @Size @RequestParam(required = false) String address, @Valid @RequestParam String phone, @Valid @RequestParam String cnic){
         return employeeService.createEmployee(name, address, phone, cnic);
 
     }
@@ -66,6 +68,36 @@ public class EmployeeController {
         return employeeService.getAllEmployee(pageNumber, pageSize);
 
     }
+    /*public class ErrorHandlingControllerAdvice {
 
+        @ExceptionHandler(ConstraintViolationException.class)
+        @ResponseStatus(HttpStatus.BAD_REQUEST)
+        @ResponseBody
+        ValidationErrorResponse onConstraintValidationException(
+                ConstraintViolationException e) {
+            ValidationErrorResponse error = new ValidationErrorResponse();
+            for (ConstraintViolation violation : e.getConstraintViolations()) {
+                error.getViolations().add(
+                        new Violation(violation.getPropertyPath().toString(), violation.getMessage()));
+            }
+            return error;
+        }
+
+        @ExceptionHandler(MethodArgumentNotValidException.class)
+        @ResponseStatus(HttpStatus.BAD_REQUEST)
+        @ResponseBody
+        ValidationErrorResponse onMethodArgumentNotValidException(
+                MethodArgumentNotValidException e) {
+            ValidationErrorResponse error = new ValidationErrorResponse();
+            for (FieldError fieldError : e.getBindingResult().getFieldErrors()) {
+                error.getViolations().add(
+                        new Violation(fieldError.getField(), fieldError.getDefaultMessage()));
+            }
+            return error;
+        }
+
+    }*/
 
 }
+
+
