@@ -1,5 +1,6 @@
 package com.iways.employeeservice.service;
 import com.iways.employeeservice.domain.Employee;
+import com.iways.employeeservice.dto.EmployeeDto;
 import com.iways.employeeservice.employeeservice.repository.EmployeeRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -13,7 +14,6 @@ import java.util.Optional;
 @Service
 public class EmployeeService {
     private final EmployeeRepository employeeRepository;
-    private EmployeeService employeeRepoitory;
 
     public EmployeeService(EmployeeRepository employeeRepository) {
         this.employeeRepository = employeeRepository;
@@ -21,8 +21,8 @@ public class EmployeeService {
 
     }
 
-    public String createEmployee(String name, String address, String phone, String cnic) {
-        Employee employee = new Employee(name, address, phone, cnic);
+    public String createEmployee(EmployeeDto employeeDto) {
+        Employee employee = new Employee(employeeDto.getName(), employeeDto.getAddress(), employeeDto.getPhone(), employeeDto.getCnic());
         employeeRepository.save(employee);
         return " saved employee";
     }
@@ -32,13 +32,13 @@ public class EmployeeService {
         return employeeRepository.findById(id);
     }
 
-    public String updatedEmployee(int id, String name, String address, String phone, String cnic) {
+    public String updatedEmployee(int id, EmployeeDto employeeDto) {
 
         Optional<Employee> optionalEmployee = getEmployee(id);
-        optionalEmployee.get().setName(name);
-        optionalEmployee.get().setAddress(address);
-        optionalEmployee.get().setPhone(phone);
-        optionalEmployee.get().setCnic(cnic);
+        optionalEmployee.get().setName(employeeDto.getName());
+        optionalEmployee.get().setAddress(employeeDto.getAddress());
+        optionalEmployee.get().setPhone(employeeDto.getPhone());
+        optionalEmployee.get().setCnic(employeeDto.getCnic());
         employeeRepository.save(optionalEmployee.get());
         return " update employee ";
     }

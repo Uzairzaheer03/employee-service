@@ -1,21 +1,21 @@
-/*package com.iways.employeeservice.controller;
+package com.iways.employeeservice.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
+import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 import javax.validation.ConstraintViolation;
-import javax.validation.ConstraintViolationException;org.springframework.web.bind.annotatio
+import javax.validation.ConstraintViolationException;
 
-public class ControllerAdvice {
-    class ErrorHandlingControllerAdvice {
-
-        @ExceptionHandler(ConstraintViolationException.class)
+@ControllerAdvice
+public class ErrorHandlingControllerAdvice {
         @ResponseStatus(HttpStatus.BAD_REQUEST)
-        @ResponseBody
+        @ResponseBody        @ExceptionHandler(ConstraintViolationException.class)
+
         ValidationErrorResponse onConstraintValidationException(
                 ConstraintViolationException e) {
             ValidationErrorResponse error = new ValidationErrorResponse();
@@ -39,6 +39,4 @@ public class ControllerAdvice {
             return error;
         }
 
-    }
-
-}*/
+}
