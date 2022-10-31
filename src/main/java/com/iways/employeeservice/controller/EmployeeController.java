@@ -1,13 +1,17 @@
 package com.iways.employeeservice.controller;
 
 import com.iways.employeeservice.domain.Employee;
+import com.iways.employeeservice.dto.EmployeeDto;
 import com.iways.employeeservice.service.EmployeeService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Page;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
+import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import java.util.Arrays;
 import java.util.List;
@@ -15,6 +19,7 @@ import java.util.Optional;
 
 @RestController
 @Slf4j
+@Validated
 public class EmployeeController {
 
     private EmployeeService employeeService = null;
@@ -32,27 +37,25 @@ public class EmployeeController {
 
     }
     @PostMapping("/create")
-    public String create(@Valid @NotEmpty  @RequestParam String name, @Valid @Size @RequestParam(required = false) String address, @Valid @RequestParam String phone, @Valid @RequestParam String cnic){
-        return employeeService.createEmployee(name, address, phone, cnic);
+    public String create(@RequestBody EmployeeDto employeeDto){
+        return employeeService.createEmployee(employeeDto);
 
     }
+
     @GetMapping("/getEmployeeById")
     public Optional<Employee> getEmployeeById(@RequestParam int id){
         log.info("Request received to get employee by id {}",id);
         return  employeeService.getEmployee(id);
     }
     @PutMapping("/update")
-    public String update(@RequestParam int id, @RequestParam String name, @RequestParam String address,@RequestParam String phone,@RequestParam String cnic){
-        return employeeService.updatedEmployee(id,name, address, phone, cnic);
+    public String update(@RequestParam int id, EmployeeDto employeeDto){
+        return employeeService.updatedEmployee(id, employeeDto);
     }
     @DeleteMapping("/delete")
     public String deleteEmployee(@RequestParam int id){
         return employeeService.deleteEmployee(id);
     }
-   /* @GetMapping("/employees")
-    public List<Employee> getAllEmployee() {
-        return employeeService.getAllEmployees();
-    }*/
+
     @GetMapping("/employees")
         public List<Employee> getAllEmployee(){
 
@@ -68,35 +71,6 @@ public class EmployeeController {
         return employeeService.getAllEmployee(pageNumber, pageSize);
 
     }
-    /*public class ErrorHandlingControllerAdvice {
-
-        @ExceptionHandler(ConstraintViolationException.class)
-        @ResponseStatus(HttpStatus.BAD_REQUEST)
-        @ResponseBody
-        ValidationErrorResponse onConstraintValidationException(
-                ConstraintViolationException e) {
-            ValidationErrorResponse error = new ValidationErrorResponse();
-            for (ConstraintViolation violation : e.getConstraintViolations()) {
-                error.getViolations().add(
-                        new Violation(violation.getPropertyPath().toString(), violation.getMessage()));
-            }
-            return error;
-        }
-
-        @ExceptionHandler(MethodArgumentNotValidException.class)
-        @ResponseStatus(HttpStatus.BAD_REQUEST)
-        @ResponseBody
-        ValidationErrorResponse onMethodArgumentNotValidException(
-                MethodArgumentNotValidException e) {
-            ValidationErrorResponse error = new ValidationErrorResponse();
-            for (FieldError fieldError : e.getBindingResult().getFieldErrors()) {
-                error.getViolations().add(
-                        new Violation(fieldError.getField(), fieldError.getDefaultMessage()));
-            }
-            return error;
-        }
-
-    }*/
 
 }
 
