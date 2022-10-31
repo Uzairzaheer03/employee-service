@@ -71,6 +71,10 @@ public class EmployeeController {
         return employeeService.getAllEmployee(pageNumber, pageSize);
 
     }
+    @GetMapping("/getStudentByCity")
+    public Optional<Employee> employeeByCity(@RequestParam String city){
+        return employeeService.getEmployeeByCity(city);
+    }
 
 }
 

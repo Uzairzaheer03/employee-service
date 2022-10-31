@@ -30,6 +30,5 @@ public class Employee {
 
     }
 
-    public void add(Employee employee) {
-    }
+
 }
