@@ -17,10 +17,9 @@ import java.util.Optional;
 @Validated
 public class EmployeeController {
 
-    private EmployeeService employeeService = null;
+    private final EmployeeService employeeService;
 
     public EmployeeController(EmployeeService employeeService) {
-
         this.employeeService = employeeService;
     }
 
@@ -67,7 +66,7 @@ public class EmployeeController {
 
     }
     @GetMapping("/getEmployeeByAddress")
-    public Optional<Employee> getEmployeeByAddress(@RequestParam String address){
+    public Optional<Employee> employeeByAddress(@RequestParam String address){
         return employeeService.getEmployeeByAddress(address);
     }
 
