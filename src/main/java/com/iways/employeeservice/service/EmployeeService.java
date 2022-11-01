@@ -62,7 +62,7 @@ public class EmployeeService {
 
 
     }
-    public Optional<Employee> getEmployeeByAddress(String address){
+    public List<Employee> getEmployeeByAddress(String address){
 
         return employeeRepository.findByAddress(address);
     }
