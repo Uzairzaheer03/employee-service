@@ -66,7 +66,7 @@ public class EmployeeController {
 
     }
     @GetMapping("/getEmployeeByAddress")
-    public Optional<Employee> employeeByAddress(@RequestParam String address){
+    public List<Employee> employeeByAddress(@RequestParam String address){
         return employeeService.getEmployeeByAddress(address);
     }
 
