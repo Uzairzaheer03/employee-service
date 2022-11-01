@@ -35,12 +35,16 @@ public class EmployeeService {
     public String updatedEmployee(int id, EmployeeDto employeeDto) {
 
         Optional<Employee> optionalEmployee = getEmployee(id);
-        optionalEmployee.get().setName(employeeDto.getName());
-        optionalEmployee.get().setAddress(employeeDto.getAddress());
-        optionalEmployee.get().setPhone(employeeDto.getPhone());
-        optionalEmployee.get().setCnic(employeeDto.getCnic());
-        employeeRepository.save(optionalEmployee.get());
-        return " update employee ";
+            if (optionalEmployee.isPresent()) {
+               optionalEmployee.get().setName(employeeDto.getName());
+               optionalEmployee.get().setAddress(employeeDto.getAddress());
+               optionalEmployee.get().setPhone(employeeDto.getPhone());
+               optionalEmployee.get().setCnic(employeeDto.getCnic());
+               employeeRepository.save(optionalEmployee.get());
+               return " update employee ";
+            }else{
+               return "student not exist with id:"+id;
+            }
     }
 
     public String deleteEmployee(int id) {
@@ -49,18 +53,12 @@ public class EmployeeService {
     }
 
     public List<Employee> getAllEmployee() {
-        List<Employee> employees = new ArrayList<Employee>();
-        employeeRepository.findAll().forEach(employee -> employees.add(employee));;
-        return employees;
-
+        return new ArrayList<>(employeeRepository.findAll());
     }
     public Page<Employee> getAllEmployee(Integer pageNumber, Integer pageSize){
 
         Pageable pageable = PageRequest.of(pageNumber, pageSize);
-        Page<Employee> pageEmployee = this.employeeRepository.findAll(pageable);
-
-        List<Employee> employees = pageEmployee.getContent();
-                return pageEmployee;
+        return this.employeeRepository.findAll(pageable);
 
 
     }

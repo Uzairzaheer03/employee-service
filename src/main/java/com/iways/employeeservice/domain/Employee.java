@@ -5,6 +5,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 import javax.persistence.*;
+
 @Entity
 @ToString
 @Setter
@@ -12,18 +13,19 @@ import javax.persistence.*;
 public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-  private  int id;
-  private  String name;
-  private  String address;
-  private  String phone;
-  private  String cnic;
+
+    private int id;
+    private String name;
+    private String address;
+    private String phone;
+    private String cnic;
 
 
-    public Employee(String name, String address, String phone, String cnic){
-        this.name=name;
-        this.address=address;
-        this.phone=phone;
-        this.cnic=cnic;
+    public Employee(String name, String address, String phone, String cnic) {
+        this.name = name;
+        this.address = address;
+        this.phone = phone;
+        this.cnic = cnic;
     }
 
     public Employee() {
