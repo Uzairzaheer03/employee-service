@@ -64,9 +64,9 @@ public class EmployeeService {
 
 
     }
-    public Optional<Employee> getEmployeeByCity(String city){
+    public Optional<Employee> getEmployeeByAddress(String address){
 
-        return employeeRepository.findByCity(city);
+        return employeeRepository.findByAddress(address);
     }
 
 }
