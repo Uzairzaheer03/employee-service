@@ -8,11 +8,6 @@ import org.springframework.data.domain.Page;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
-import javax.validation.Valid;
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
@@ -71,9 +66,9 @@ public class EmployeeController {
         return employeeService.getAllEmployee(pageNumber, pageSize);
 
     }
-    @GetMapping("/getStudentByCity")
-    public Optional<Employee> employeeByCity(@RequestParam String city){
-        return employeeService.getEmployeeByCity(city);
+    @GetMapping("/getEmployeeByAddress")
+    public Optional<Employee> getEmployeeByAddress(@RequestParam String address){
+        return employeeService.getEmployeeByAddress(address);
     }
 
 }
