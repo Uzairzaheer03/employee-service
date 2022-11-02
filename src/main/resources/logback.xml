@@ -1,6 +1,6 @@
 <configuration scan="true">
     
-    <property name="employee-management-service" value="account-management-service" />
+    <property name="employee-management-service" value="employee-management-service" />
     <!-- CONSOLE -->
     <appender name="CONSOLE"
               class="ch.qos.logback.core.ConsoleAppender">
@@ -38,12 +38,12 @@
     <!-- DEFAULT -->
     <appender name="DEFAULT"
               class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>student-management-service.log</file>
+        <file>employee-management-service.log</file>
         <append>true</append>
         <rollingPolicy
             class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!-- daily rollover -->
-            <fileNamePattern>student-management-service.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <fileNamePattern>employee-management-service.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
             <timeBasedFileNamingAndTriggeringPolicy
                 class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
                 <!-- or whenever the file size reaches 100MB -->

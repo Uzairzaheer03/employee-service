@@ -55,7 +55,7 @@ public class EmployeeController {
 
     @GetMapping("/employees")
         public List<Employee> getAllEmployee(){
-        log.info("Request recieved for get all employee {}" );
+        log.info("Request recieved for get all employee {}");
         return employeeService.getAllEmployee();
         }
 
