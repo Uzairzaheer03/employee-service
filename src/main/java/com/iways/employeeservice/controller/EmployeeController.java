@@ -32,6 +32,7 @@ public class EmployeeController {
     }
     @PostMapping("/create")
     public String create(@RequestBody EmployeeDto employeeDto){
+        log.info("Request for create employeeDto {}", employeeDto);
         return employeeService.createEmployee(employeeDto);
 
     }
@@ -42,17 +43,19 @@ public class EmployeeController {
         return  employeeService.getEmployee(id);
     }
     @PutMapping("/update")
-    public String update(@RequestParam int id, EmployeeDto employeeDto){
+    public String update(@RequestParam int id, @RequestBody EmployeeDto employeeDto){
+        log.info("Request recieved for update employeeDto {} for id {}", employeeDto, id );
         return employeeService.updatedEmployee(id, employeeDto);
     }
     @DeleteMapping("/delete")
     public String deleteEmployee(@RequestParam int id){
+        log.info("Request recieved for delete id {}", id);
         return employeeService.deleteEmployee(id);
     }
 
     @GetMapping("/employees")
         public List<Employee> getAllEmployee(){
-
+        log.info("Request recieved for get all employee {}" );
         return employeeService.getAllEmployee();
         }
 
@@ -61,12 +64,13 @@ public class EmployeeController {
                 @RequestParam (value = "pageNumber", defaultValue = "0", required = false) Integer pageNumber,
                 @RequestParam (value = "pageSize", defaultValue = "3", required = false) Integer pageSize
                 ){
-
-        return employeeService.getAllEmployee(pageNumber, pageSize);
+                    log.info("Request recieved for employee by pageNumber {} for pageSize {}", pageNumber, pageSize);
+                    return employeeService.getAllEmployee(pageNumber, pageSize);
 
     }
     @GetMapping("/getEmployeeByAddress")
     public List<Employee> employeeByAddress(@RequestParam String address){
+        log.info("Request recieved for get employee by address {}", address);
         return employeeService.getEmployeeByAddress(address);
     }
 
