@@ -100,7 +100,28 @@ public class EmployeeController {
                 "http://localhost:8081/create", HttpMethod.POST, entity, String.class).getBody();
 
     }
-    @
+    @PutMapping ("/updateStudent")
+    public String update(@RequestParam int id, @RequestBody StudentDto studentDto){
+        RestTemplate restTemplate = new RestTemplate();
+        HttpHeaders headers = new HttpHeaders();
+        headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
+        HttpEntity<StudentDto> entity = new HttpEntity<>(studentDto, headers);
+
+        return restTemplate.exchange(
+                "http://localhost:8081/update/"+id, HttpMethod.PUT, entity, String.class).getBody();
+    }
+    @DeleteMapping("/deleteStudent")
+    public String deleteStudent(@RequestParam int id){
+
+        RestTemplate restTemplate = new RestTemplate();
+           HttpHeaders headers = new HttpHeaders();
+           headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
+           HttpEntity<Student> entity = new HttpEntity<Student>(headers);
+
+        return restTemplate.exchange(
+                "http://localhost:8081/delete/"+id, HttpMethod.DELETE, entity, String.class).getBody();
+    }
+
 
 
 }

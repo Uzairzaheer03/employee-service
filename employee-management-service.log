@@ -987,3 +987,1388 @@ java.net.ConnectException: Connection refused: connect
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO 2022-11-03 07:26:14,680 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 07:26:14,680 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 07:26:14,683 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown initiated...
+INFO 2022-11-03 07:26:14,691 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown completed.
+INFO 2022-11-03 07:26:18,768 org.springframework.boot.StartupInfoLogger- Starting EmployeeServiceApplication using Java 11.0.16 on DESKTOP-EQ3BJ36 with PID 5352 (C:\Users\RAYYMAN TECH\Documents\GitHub\employee-service\target\classes started by RAYYMAN TECH in C:\Users\RAYYMAN TECH\Documents\GitHub\employee-service)
+INFO 2022-11-03 07:26:18,768 org.hibernate.validator.internal.util.Version- HV000001: Hibernate Validator 6.2.5.Final
+INFO 2022-11-03 07:26:18,770 org.springframework.boot.SpringApplication- No active profile set, falling back to 1 default profile: "default"
+INFO 2022-11-03 07:26:19,295 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO 2022-11-03 07:26:19,295 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO 2022-11-03 07:26:19,326 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interfaces.
+INFO 2022-11-03 07:26:19,326 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interfaces.
+INFO 2022-11-03 07:26:19,636 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+INFO 2022-11-03 07:26:19,636 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+INFO 2022-11-03 07:26:19,642 org.apache.juli.logging.DirectJDKLog- Initializing ProtocolHandler ["http-nio-8080"]
+INFO 2022-11-03 07:26:19,642 org.apache.juli.logging.DirectJDKLog- Starting service [Tomcat]
+INFO 2022-11-03 07:26:19,642 org.apache.juli.logging.DirectJDKLog- Starting Servlet engine: [Apache Tomcat/9.0.65]
+INFO 2022-11-03 07:26:19,722 org.apache.juli.logging.DirectJDKLog- Initializing Spring embedded WebApplicationContext
+INFO 2022-11-03 07:26:19,722 org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 926 ms
+INFO 2022-11-03 07:26:19,722 org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 926 ms
+INFO 2022-11-03 07:26:19,788 org.hibernate.jpa.internal.util.LogHelper- HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO 2022-11-03 07:26:19,810 org.hibernate.Version- HHH000412: Hibernate ORM core version 5.6.11.Final
+INFO 2022-11-03 07:26:19,881 org.hibernate.annotations.common.reflection.java.JavaReflectionManager- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO 2022-11-03 07:26:19,930 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Starting...
+INFO 2022-11-03 07:26:20,087 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Start completed.
+INFO 2022-11-03 07:26:20,097 org.hibernate.dialect.Dialect- HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+INFO 2022-11-03 07:26:20,407 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO 2022-11-03 07:26:20,411 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 07:26:20,411 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN 2022-11-03 07:26:20,704 org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+WARN 2022-11-03 07:26:20,704 org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO 2022-11-03 07:26:20,917 org.apache.juli.logging.DirectJDKLog- Starting ProtocolHandler ["http-nio-8080"]
+INFO 2022-11-03 07:26:20,930 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2022-11-03 07:26:20,930 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2022-11-03 07:26:21,083 org.springframework.boot.StartupInfoLogger- Started EmployeeServiceApplication in 2.516 seconds (JVM running for 3.051)
+INFO 2022-11-03 07:26:43,918 org.apache.juli.logging.DirectJDKLog- Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2022-11-03 07:26:43,919 org.springframework.web.servlet.FrameworkServlet- Initializing Servlet 'dispatcherServlet'
+INFO 2022-11-03 07:26:43,919 org.springframework.web.servlet.FrameworkServlet- Initializing Servlet 'dispatcherServlet'
+INFO 2022-11-03 07:26:43,922 org.springframework.web.servlet.FrameworkServlet- Completed initialization in 3 ms
+INFO 2022-11-03 07:26:43,922 org.springframework.web.servlet.FrameworkServlet- Completed initialization in 3 ms
+ERROR 2022-11-03 07:27:05,357 org.apache.juli.logging.DirectJDKLog- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.client.HttpClientErrorException$NotFound: 404 : "{"timestamp":1667485625299,"status":404,"error":"Not Found","path":"/getBystudentId"}"] with root cause
+org.springframework.web.client.HttpClientErrorException$NotFound: 404 : "{"timestamp":1667485625299,"status":404,"error":"Not Found","path":"/getBystudentId"}"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:113)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:168)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:122)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:819)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:777)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:334)
+	at com.iways.employeeservice.controller.EmployeeController.getStudentById(EmployeeController.java:107)
+	at com.iways.employeeservice.controller.EmployeeController$$FastClassBySpringCGLIB$$a3c4ec67.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:123)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.iways.employeeservice.controller.EmployeeController$$EnhancerBySpringCGLIB$$e266c81.getStudentById(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO 2022-11-03 07:27:47,587 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 07:27:47,587 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 07:27:47,588 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown initiated...
+INFO 2022-11-03 07:27:47,596 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown completed.
+INFO 2022-11-03 07:27:51,663 org.hibernate.validator.internal.util.Version- HV000001: Hibernate Validator 6.2.5.Final
+INFO 2022-11-03 07:27:51,663 org.springframework.boot.StartupInfoLogger- Starting EmployeeServiceApplication using Java 11.0.16 on DESKTOP-EQ3BJ36 with PID 1568 (C:\Users\RAYYMAN TECH\Documents\GitHub\employee-service\target\classes started by RAYYMAN TECH in C:\Users\RAYYMAN TECH\Documents\GitHub\employee-service)
+INFO 2022-11-03 07:27:51,665 org.springframework.boot.SpringApplication- No active profile set, falling back to 1 default profile: "default"
+INFO 2022-11-03 07:27:52,265 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO 2022-11-03 07:27:52,265 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO 2022-11-03 07:27:52,303 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
+INFO 2022-11-03 07:27:52,303 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
+INFO 2022-11-03 07:27:52,655 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+INFO 2022-11-03 07:27:52,655 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+INFO 2022-11-03 07:27:52,660 org.apache.juli.logging.DirectJDKLog- Initializing ProtocolHandler ["http-nio-8080"]
+INFO 2022-11-03 07:27:52,660 org.apache.juli.logging.DirectJDKLog- Starting service [Tomcat]
+INFO 2022-11-03 07:27:52,661 org.apache.juli.logging.DirectJDKLog- Starting Servlet engine: [Apache Tomcat/9.0.65]
+INFO 2022-11-03 07:27:52,732 org.apache.juli.logging.DirectJDKLog- Initializing Spring embedded WebApplicationContext
+INFO 2022-11-03 07:27:52,732 org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 1041 ms
+INFO 2022-11-03 07:27:52,732 org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 1041 ms
+INFO 2022-11-03 07:27:52,799 org.hibernate.jpa.internal.util.LogHelper- HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO 2022-11-03 07:27:52,819 org.hibernate.Version- HHH000412: Hibernate ORM core version 5.6.11.Final
+INFO 2022-11-03 07:27:52,886 org.hibernate.annotations.common.reflection.java.JavaReflectionManager- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO 2022-11-03 07:27:52,938 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Starting...
+INFO 2022-11-03 07:27:53,081 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Start completed.
+INFO 2022-11-03 07:27:53,091 org.hibernate.dialect.Dialect- HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+INFO 2022-11-03 07:27:53,397 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO 2022-11-03 07:27:53,401 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 07:27:53,401 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN 2022-11-03 07:27:53,691 org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+WARN 2022-11-03 07:27:53,691 org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO 2022-11-03 07:27:53,880 org.apache.juli.logging.DirectJDKLog- Starting ProtocolHandler ["http-nio-8080"]
+INFO 2022-11-03 07:27:53,890 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2022-11-03 07:27:53,890 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2022-11-03 07:27:54,046 org.springframework.boot.StartupInfoLogger- Started EmployeeServiceApplication in 2.584 seconds (JVM running for 3.099)
+INFO 2022-11-03 07:28:16,128 org.apache.juli.logging.DirectJDKLog- Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2022-11-03 07:28:16,129 org.springframework.web.servlet.FrameworkServlet- Initializing Servlet 'dispatcherServlet'
+INFO 2022-11-03 07:28:16,129 org.springframework.web.servlet.FrameworkServlet- Initializing Servlet 'dispatcherServlet'
+INFO 2022-11-03 07:28:16,130 org.springframework.web.servlet.FrameworkServlet- Completed initialization in 1 ms
+INFO 2022-11-03 07:28:16,130 org.springframework.web.servlet.FrameworkServlet- Completed initialization in 1 ms
+ERROR 2022-11-03 07:28:23,495 org.apache.juli.logging.DirectJDKLog- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.client.HttpClientErrorException$BadRequest: 400 : "{"timestamp":1667485703435,"status":400,"error":"Bad Request","path":"/getByStudentId"}"] with root cause
+org.springframework.web.client.HttpClientErrorException$BadRequest: 400 : "{"timestamp":1667485703435,"status":400,"error":"Bad Request","path":"/getByStudentId"}"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:101)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:168)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:122)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:819)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:777)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:334)
+	at com.iways.employeeservice.controller.EmployeeController.getStudentById(EmployeeController.java:107)
+	at com.iways.employeeservice.controller.EmployeeController$$FastClassBySpringCGLIB$$a3c4ec67.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:123)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.iways.employeeservice.controller.EmployeeController$$EnhancerBySpringCGLIB$$5639eaa3.getStudentById(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO 2022-11-03 07:36:11,332 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 07:36:11,332 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 07:36:11,334 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown initiated...
+INFO 2022-11-03 07:36:11,342 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown completed.
+INFO 2022-11-03 07:36:14,973 org.springframework.boot.StartupInfoLogger- Starting EmployeeServiceApplication using Java 11.0.16 on DESKTOP-EQ3BJ36 with PID 9212 (C:\Users\RAYYMAN TECH\Documents\GitHub\employee-service\target\classes started by RAYYMAN TECH in C:\Users\RAYYMAN TECH\Documents\GitHub\employee-service)
+INFO 2022-11-03 07:36:14,971 org.hibernate.validator.internal.util.Version- HV000001: Hibernate Validator 6.2.5.Final
+INFO 2022-11-03 07:36:14,976 org.springframework.boot.SpringApplication- No active profile set, falling back to 1 default profile: "default"
+INFO 2022-11-03 07:36:15,621 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO 2022-11-03 07:36:15,621 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO 2022-11-03 07:36:15,650 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interfaces.
+INFO 2022-11-03 07:36:15,650 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interfaces.
+INFO 2022-11-03 07:36:15,979 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+INFO 2022-11-03 07:36:15,979 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+INFO 2022-11-03 07:36:15,984 org.apache.juli.logging.DirectJDKLog- Initializing ProtocolHandler ["http-nio-8080"]
+INFO 2022-11-03 07:36:15,984 org.apache.juli.logging.DirectJDKLog- Starting service [Tomcat]
+INFO 2022-11-03 07:36:15,984 org.apache.juli.logging.DirectJDKLog- Starting Servlet engine: [Apache Tomcat/9.0.65]
+INFO 2022-11-03 07:36:16,064 org.apache.juli.logging.DirectJDKLog- Initializing Spring embedded WebApplicationContext
+INFO 2022-11-03 07:36:16,064 org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 1052 ms
+INFO 2022-11-03 07:36:16,064 org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 1052 ms
+INFO 2022-11-03 07:36:16,135 org.hibernate.jpa.internal.util.LogHelper- HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO 2022-11-03 07:36:16,157 org.hibernate.Version- HHH000412: Hibernate ORM core version 5.6.11.Final
+INFO 2022-11-03 07:36:16,233 org.hibernate.annotations.common.reflection.java.JavaReflectionManager- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO 2022-11-03 07:36:16,285 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Starting...
+INFO 2022-11-03 07:36:16,457 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Start completed.
+INFO 2022-11-03 07:36:16,468 org.hibernate.dialect.Dialect- HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+INFO 2022-11-03 07:36:16,797 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO 2022-11-03 07:36:16,803 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 07:36:16,803 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN 2022-11-03 07:36:17,123 org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+WARN 2022-11-03 07:36:17,123 org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO 2022-11-03 07:36:17,339 org.apache.juli.logging.DirectJDKLog- Starting ProtocolHandler ["http-nio-8080"]
+INFO 2022-11-03 07:36:17,350 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2022-11-03 07:36:17,350 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2022-11-03 07:36:17,507 org.springframework.boot.StartupInfoLogger- Started EmployeeServiceApplication in 2.876 seconds (JVM running for 3.735)
+INFO 2022-11-03 07:36:31,086 org.apache.juli.logging.DirectJDKLog- Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2022-11-03 07:36:31,086 org.springframework.web.servlet.FrameworkServlet- Initializing Servlet 'dispatcherServlet'
+INFO 2022-11-03 07:36:31,086 org.springframework.web.servlet.FrameworkServlet- Initializing Servlet 'dispatcherServlet'
+INFO 2022-11-03 07:36:31,087 org.springframework.web.servlet.FrameworkServlet- Completed initialization in 1 ms
+INFO 2022-11-03 07:36:31,087 org.springframework.web.servlet.FrameworkServlet- Completed initialization in 1 ms
+ERROR 2022-11-03 07:36:38,911 org.apache.juli.logging.DirectJDKLog- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.client.HttpClientErrorException$BadRequest: 400 : "{"timestamp":1667486198843,"status":400,"error":"Bad Request","path":"/getByStudentId"}"] with root cause
+org.springframework.web.client.HttpClientErrorException$BadRequest: 400 : "{"timestamp":1667486198843,"status":400,"error":"Bad Request","path":"/getByStudentId"}"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:101)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:168)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:122)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:819)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:777)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:334)
+	at com.iways.employeeservice.controller.EmployeeController.getStudentById(EmployeeController.java:107)
+	at com.iways.employeeservice.controller.EmployeeController$$FastClassBySpringCGLIB$$a3c4ec67.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:123)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.iways.employeeservice.controller.EmployeeController$$EnhancerBySpringCGLIB$$8b8a4c4c.getStudentById(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO 2022-11-03 07:39:44,102 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 07:39:44,102 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 07:39:44,104 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown initiated...
+INFO 2022-11-03 07:39:44,112 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown completed.
+INFO 2022-11-03 07:39:49,083 org.springframework.boot.StartupInfoLogger- Starting EmployeeServiceApplication using Java 11.0.16 on DESKTOP-EQ3BJ36 with PID 1324 (C:\Users\RAYYMAN TECH\Documents\GitHub\employee-service\target\classes started by RAYYMAN TECH in C:\Users\RAYYMAN TECH\Documents\GitHub\employee-service)
+INFO 2022-11-03 07:39:49,084 org.hibernate.validator.internal.util.Version- HV000001: Hibernate Validator 6.2.5.Final
+INFO 2022-11-03 07:39:49,086 org.springframework.boot.SpringApplication- No active profile set, falling back to 1 default profile: "default"
+INFO 2022-11-03 07:39:49,714 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO 2022-11-03 07:39:49,714 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO 2022-11-03 07:39:49,747 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interfaces.
+INFO 2022-11-03 07:39:49,747 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interfaces.
+INFO 2022-11-03 07:39:50,089 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+INFO 2022-11-03 07:39:50,089 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+INFO 2022-11-03 07:39:50,093 org.apache.juli.logging.DirectJDKLog- Initializing ProtocolHandler ["http-nio-8080"]
+INFO 2022-11-03 07:39:50,094 org.apache.juli.logging.DirectJDKLog- Starting service [Tomcat]
+INFO 2022-11-03 07:39:50,094 org.apache.juli.logging.DirectJDKLog- Starting Servlet engine: [Apache Tomcat/9.0.65]
+INFO 2022-11-03 07:39:50,170 org.apache.juli.logging.DirectJDKLog- Initializing Spring embedded WebApplicationContext
+INFO 2022-11-03 07:39:50,171 org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 1057 ms
+INFO 2022-11-03 07:39:50,171 org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 1057 ms
+INFO 2022-11-03 07:39:50,240 org.hibernate.jpa.internal.util.LogHelper- HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO 2022-11-03 07:39:50,267 org.hibernate.Version- HHH000412: Hibernate ORM core version 5.6.11.Final
+INFO 2022-11-03 07:39:50,367 org.hibernate.annotations.common.reflection.java.JavaReflectionManager- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO 2022-11-03 07:39:50,421 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Starting...
+INFO 2022-11-03 07:39:50,592 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Start completed.
+INFO 2022-11-03 07:39:50,603 org.hibernate.dialect.Dialect- HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+INFO 2022-11-03 07:39:50,934 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO 2022-11-03 07:39:50,939 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 07:39:50,939 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN 2022-11-03 07:39:51,250 org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+WARN 2022-11-03 07:39:51,250 org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO 2022-11-03 07:39:51,522 org.apache.juli.logging.DirectJDKLog- Starting ProtocolHandler ["http-nio-8080"]
+INFO 2022-11-03 07:39:51,534 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2022-11-03 07:39:51,534 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2022-11-03 07:39:51,709 org.springframework.boot.StartupInfoLogger- Started EmployeeServiceApplication in 2.86 seconds (JVM running for 3.602)
+INFO 2022-11-03 07:41:48,202 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 07:41:48,202 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 07:41:48,204 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown initiated...
+INFO 2022-11-03 07:41:48,211 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown completed.
+INFO 2022-11-03 07:41:52,342 org.hibernate.validator.internal.util.Version- HV000001: Hibernate Validator 6.2.5.Final
+INFO 2022-11-03 07:41:52,341 org.springframework.boot.StartupInfoLogger- Starting EmployeeServiceApplication using Java 11.0.16 on DESKTOP-EQ3BJ36 with PID 8800 (C:\Users\RAYYMAN TECH\Documents\GitHub\employee-service\target\classes started by RAYYMAN TECH in C:\Users\RAYYMAN TECH\Documents\GitHub\employee-service)
+INFO 2022-11-03 07:41:52,344 org.springframework.boot.SpringApplication- No active profile set, falling back to 1 default profile: "default"
+INFO 2022-11-03 07:41:52,881 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO 2022-11-03 07:41:52,881 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO 2022-11-03 07:41:52,910 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interfaces.
+INFO 2022-11-03 07:41:52,910 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interfaces.
+INFO 2022-11-03 07:41:53,207 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+INFO 2022-11-03 07:41:53,207 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+INFO 2022-11-03 07:41:53,212 org.apache.juli.logging.DirectJDKLog- Initializing ProtocolHandler ["http-nio-8080"]
+INFO 2022-11-03 07:41:53,212 org.apache.juli.logging.DirectJDKLog- Starting service [Tomcat]
+INFO 2022-11-03 07:41:53,212 org.apache.juli.logging.DirectJDKLog- Starting Servlet engine: [Apache Tomcat/9.0.65]
+INFO 2022-11-03 07:41:53,291 org.apache.juli.logging.DirectJDKLog- Initializing Spring embedded WebApplicationContext
+INFO 2022-11-03 07:41:53,292 org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 921 ms
+INFO 2022-11-03 07:41:53,292 org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 921 ms
+INFO 2022-11-03 07:41:53,350 org.hibernate.jpa.internal.util.LogHelper- HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO 2022-11-03 07:41:53,370 org.hibernate.Version- HHH000412: Hibernate ORM core version 5.6.11.Final
+INFO 2022-11-03 07:41:53,432 org.hibernate.annotations.common.reflection.java.JavaReflectionManager- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO 2022-11-03 07:41:53,480 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Starting...
+INFO 2022-11-03 07:41:53,630 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Start completed.
+INFO 2022-11-03 07:41:53,639 org.hibernate.dialect.Dialect- HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+INFO 2022-11-03 07:41:53,979 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO 2022-11-03 07:41:53,985 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 07:41:53,985 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN 2022-11-03 07:41:54,314 org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+WARN 2022-11-03 07:41:54,314 org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO 2022-11-03 07:41:54,526 org.apache.juli.logging.DirectJDKLog- Starting ProtocolHandler ["http-nio-8080"]
+INFO 2022-11-03 07:41:54,540 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2022-11-03 07:41:54,540 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2022-11-03 07:41:54,706 org.springframework.boot.StartupInfoLogger- Started EmployeeServiceApplication in 2.57 seconds (JVM running for 3.098)
+INFO 2022-11-03 07:42:58,605 org.apache.juli.logging.DirectJDKLog- Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2022-11-03 07:42:58,605 org.springframework.web.servlet.FrameworkServlet- Initializing Servlet 'dispatcherServlet'
+INFO 2022-11-03 07:42:58,605 org.springframework.web.servlet.FrameworkServlet- Initializing Servlet 'dispatcherServlet'
+INFO 2022-11-03 07:42:58,606 org.springframework.web.servlet.FrameworkServlet- Completed initialization in 1 ms
+INFO 2022-11-03 07:42:58,606 org.springframework.web.servlet.FrameworkServlet- Completed initialization in 1 ms
+ERROR 2022-11-03 07:43:08,065 org.apache.juli.logging.DirectJDKLog- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.client.HttpClientErrorException$NotFound: 404 : "{"timestamp":1667486587994,"status":404,"error":"Not Found","path":"/getByStudentId4"}"] with root cause
+org.springframework.web.client.HttpClientErrorException$NotFound: 404 : "{"timestamp":1667486587994,"status":404,"error":"Not Found","path":"/getByStudentId4"}"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:113)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:168)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:122)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:819)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:777)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:334)
+	at com.iways.employeeservice.controller.EmployeeController.getStudentById(EmployeeController.java:107)
+	at com.iways.employeeservice.controller.EmployeeController$$FastClassBySpringCGLIB$$a3c4ec67.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:123)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.iways.employeeservice.controller.EmployeeController$$EnhancerBySpringCGLIB$$4c7bf04d.getStudentById(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO 2022-11-03 07:48:55,549 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 07:48:55,549 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 07:48:55,551 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown initiated...
+INFO 2022-11-03 07:48:55,558 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown completed.
+INFO 2022-11-03 07:48:59,651 org.springframework.boot.StartupInfoLogger- Starting EmployeeServiceApplication using Java 11.0.16 on DESKTOP-EQ3BJ36 with PID 15040 (C:\Users\RAYYMAN TECH\Documents\GitHub\employee-service\target\classes started by RAYYMAN TECH in C:\Users\RAYYMAN TECH\Documents\GitHub\employee-service)
+INFO 2022-11-03 07:48:59,651 org.hibernate.validator.internal.util.Version- HV000001: Hibernate Validator 6.2.5.Final
+INFO 2022-11-03 07:48:59,653 org.springframework.boot.SpringApplication- No active profile set, falling back to 1 default profile: "default"
+INFO 2022-11-03 07:49:00,191 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO 2022-11-03 07:49:00,191 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO 2022-11-03 07:49:00,220 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interfaces.
+INFO 2022-11-03 07:49:00,220 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interfaces.
+INFO 2022-11-03 07:49:00,531 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+INFO 2022-11-03 07:49:00,531 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+INFO 2022-11-03 07:49:00,537 org.apache.juli.logging.DirectJDKLog- Initializing ProtocolHandler ["http-nio-8080"]
+INFO 2022-11-03 07:49:00,537 org.apache.juli.logging.DirectJDKLog- Starting service [Tomcat]
+INFO 2022-11-03 07:49:00,537 org.apache.juli.logging.DirectJDKLog- Starting Servlet engine: [Apache Tomcat/9.0.65]
+INFO 2022-11-03 07:49:00,613 org.apache.juli.logging.DirectJDKLog- Initializing Spring embedded WebApplicationContext
+INFO 2022-11-03 07:49:00,613 org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 932 ms
+INFO 2022-11-03 07:49:00,613 org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 932 ms
+INFO 2022-11-03 07:49:00,677 org.hibernate.jpa.internal.util.LogHelper- HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO 2022-11-03 07:49:00,702 org.hibernate.Version- HHH000412: Hibernate ORM core version 5.6.11.Final
+INFO 2022-11-03 07:49:00,785 org.hibernate.annotations.common.reflection.java.JavaReflectionManager- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO 2022-11-03 07:49:00,844 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Starting...
+INFO 2022-11-03 07:49:01,034 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Start completed.
+INFO 2022-11-03 07:49:01,044 org.hibernate.dialect.Dialect- HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+INFO 2022-11-03 07:49:01,366 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO 2022-11-03 07:49:01,370 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 07:49:01,370 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN 2022-11-03 07:49:01,646 org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+WARN 2022-11-03 07:49:01,646 org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO 2022-11-03 07:49:01,833 org.apache.juli.logging.DirectJDKLog- Starting ProtocolHandler ["http-nio-8080"]
+INFO 2022-11-03 07:49:01,844 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2022-11-03 07:49:01,844 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2022-11-03 07:49:02,005 org.springframework.boot.StartupInfoLogger- Started EmployeeServiceApplication in 2.562 seconds (JVM running for 3.097)
+INFO 2022-11-03 07:49:30,573 org.apache.juli.logging.DirectJDKLog- Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2022-11-03 07:49:30,574 org.springframework.web.servlet.FrameworkServlet- Initializing Servlet 'dispatcherServlet'
+INFO 2022-11-03 07:49:30,574 org.springframework.web.servlet.FrameworkServlet- Initializing Servlet 'dispatcherServlet'
+INFO 2022-11-03 07:49:30,575 org.springframework.web.servlet.FrameworkServlet- Completed initialization in 1 ms
+INFO 2022-11-03 07:49:30,575 org.springframework.web.servlet.FrameworkServlet- Completed initialization in 1 ms
+ERROR 2022-11-03 07:49:42,566 org.apache.juli.logging.DirectJDKLog- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.client.HttpClientErrorException$BadRequest: 400 : "{"timestamp":1667486982502,"status":400,"error":"Bad Request","path":"/getByStudentId"}"] with root cause
+org.springframework.web.client.HttpClientErrorException$BadRequest: 400 : "{"timestamp":1667486982502,"status":400,"error":"Bad Request","path":"/getByStudentId"}"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:101)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:168)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:122)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:819)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:777)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at com.iways.employeeservice.controller.EmployeeController.getByStudentId(EmployeeController.java:110)
+	at com.iways.employeeservice.controller.EmployeeController$$FastClassBySpringCGLIB$$a3c4ec67.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:123)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.iways.employeeservice.controller.EmployeeController$$EnhancerBySpringCGLIB$$8b8a4c4c.getByStudentId(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO 2022-11-03 07:56:38,418 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 07:56:38,418 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 07:56:38,420 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown initiated...
+INFO 2022-11-03 07:56:38,427 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown completed.
+INFO 2022-11-03 07:56:43,003 org.springframework.boot.StartupInfoLogger- Starting EmployeeServiceApplication using Java 11.0.16 on DESKTOP-EQ3BJ36 with PID 14968 (C:\Users\RAYYMAN TECH\Documents\GitHub\employee-service\target\classes started by RAYYMAN TECH in C:\Users\RAYYMAN TECH\Documents\GitHub\employee-service)
+INFO 2022-11-03 07:56:43,004 org.hibernate.validator.internal.util.Version- HV000001: Hibernate Validator 6.2.5.Final
+INFO 2022-11-03 07:56:43,005 org.springframework.boot.SpringApplication- No active profile set, falling back to 1 default profile: "default"
+INFO 2022-11-03 07:56:43,514 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO 2022-11-03 07:56:43,514 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO 2022-11-03 07:56:43,543 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interfaces.
+INFO 2022-11-03 07:56:43,543 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interfaces.
+INFO 2022-11-03 07:56:43,825 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+INFO 2022-11-03 07:56:43,825 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+INFO 2022-11-03 07:56:43,829 org.apache.juli.logging.DirectJDKLog- Initializing ProtocolHandler ["http-nio-8080"]
+INFO 2022-11-03 07:56:43,830 org.apache.juli.logging.DirectJDKLog- Starting service [Tomcat]
+INFO 2022-11-03 07:56:43,830 org.apache.juli.logging.DirectJDKLog- Starting Servlet engine: [Apache Tomcat/9.0.65]
+INFO 2022-11-03 07:56:43,903 org.apache.juli.logging.DirectJDKLog- Initializing Spring embedded WebApplicationContext
+INFO 2022-11-03 07:56:43,903 org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 872 ms
+INFO 2022-11-03 07:56:43,903 org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 872 ms
+INFO 2022-11-03 07:56:43,962 org.hibernate.jpa.internal.util.LogHelper- HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO 2022-11-03 07:56:43,981 org.hibernate.Version- HHH000412: Hibernate ORM core version 5.6.11.Final
+INFO 2022-11-03 07:56:44,049 org.hibernate.annotations.common.reflection.java.JavaReflectionManager- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO 2022-11-03 07:56:44,093 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Starting...
+INFO 2022-11-03 07:56:44,231 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Start completed.
+INFO 2022-11-03 07:56:44,240 org.hibernate.dialect.Dialect- HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+INFO 2022-11-03 07:56:44,535 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO 2022-11-03 07:56:44,540 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 07:56:44,540 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN 2022-11-03 07:56:44,820 org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+WARN 2022-11-03 07:56:44,820 org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO 2022-11-03 07:56:45,005 org.apache.juli.logging.DirectJDKLog- Starting ProtocolHandler ["http-nio-8080"]
+INFO 2022-11-03 07:56:45,016 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2022-11-03 07:56:45,016 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2022-11-03 07:56:45,165 org.springframework.boot.StartupInfoLogger- Started EmployeeServiceApplication in 2.364 seconds (JVM running for 2.896)
+INFO 2022-11-03 07:57:44,130 org.apache.juli.logging.DirectJDKLog- Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2022-11-03 07:57:44,130 org.springframework.web.servlet.FrameworkServlet- Initializing Servlet 'dispatcherServlet'
+INFO 2022-11-03 07:57:44,130 org.springframework.web.servlet.FrameworkServlet- Initializing Servlet 'dispatcherServlet'
+INFO 2022-11-03 07:57:44,131 org.springframework.web.servlet.FrameworkServlet- Completed initialization in 0 ms
+INFO 2022-11-03 07:57:44,131 org.springframework.web.servlet.FrameworkServlet- Completed initialization in 0 ms
+ERROR 2022-11-03 07:58:43,430 org.apache.juli.logging.DirectJDKLog- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.client.HttpClientErrorException$NotFound: 404 : "{"timestamp":1667487523408,"status":404,"error":"Not Found","path":"/update/1"}"] with root cause
+org.springframework.web.client.HttpClientErrorException$NotFound: 404 : "{"timestamp":1667487523408,"status":404,"error":"Not Found","path":"/update/1"}"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:113)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:168)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:122)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:819)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:777)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at com.iways.employeeservice.controller.EmployeeController.update(EmployeeController.java:110)
+	at com.iways.employeeservice.controller.EmployeeController$$FastClassBySpringCGLIB$$a3c4ec67.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:123)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.iways.employeeservice.controller.EmployeeController$$EnhancerBySpringCGLIB$$e266c81.update(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:920)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:684)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO 2022-11-03 08:08:29,901 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 08:08:29,901 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 08:08:29,903 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown initiated...
+INFO 2022-11-03 08:08:29,912 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown completed.
+INFO 2022-11-03 08:08:35,546 org.hibernate.validator.internal.util.Version- HV000001: Hibernate Validator 6.2.5.Final
+INFO 2022-11-03 08:08:35,544 org.springframework.boot.StartupInfoLogger- Starting EmployeeServiceApplication using Java 11.0.16 on DESKTOP-EQ3BJ36 with PID 1276 (C:\Users\RAYYMAN TECH\Documents\GitHub\employee-service\target\classes started by RAYYMAN TECH in C:\Users\RAYYMAN TECH\Documents\GitHub\employee-service)
+INFO 2022-11-03 08:08:35,547 org.springframework.boot.SpringApplication- No active profile set, falling back to 1 default profile: "default"
+INFO 2022-11-03 08:08:36,062 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO 2022-11-03 08:08:36,062 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO 2022-11-03 08:08:36,092 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interfaces.
+INFO 2022-11-03 08:08:36,092 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interfaces.
+INFO 2022-11-03 08:08:36,420 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+INFO 2022-11-03 08:08:36,420 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+INFO 2022-11-03 08:08:36,427 org.apache.juli.logging.DirectJDKLog- Initializing ProtocolHandler ["http-nio-8080"]
+INFO 2022-11-03 08:08:36,427 org.apache.juli.logging.DirectJDKLog- Starting service [Tomcat]
+INFO 2022-11-03 08:08:36,427 org.apache.juli.logging.DirectJDKLog- Starting Servlet engine: [Apache Tomcat/9.0.65]
+INFO 2022-11-03 08:08:36,509 org.apache.juli.logging.DirectJDKLog- Initializing Spring embedded WebApplicationContext
+INFO 2022-11-03 08:08:36,510 org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 938 ms
+INFO 2022-11-03 08:08:36,510 org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 938 ms
+INFO 2022-11-03 08:08:36,579 org.hibernate.jpa.internal.util.LogHelper- HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO 2022-11-03 08:08:36,602 org.hibernate.Version- HHH000412: Hibernate ORM core version 5.6.11.Final
+INFO 2022-11-03 08:08:36,675 org.hibernate.annotations.common.reflection.java.JavaReflectionManager- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO 2022-11-03 08:08:36,732 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Starting...
+INFO 2022-11-03 08:08:36,936 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Start completed.
+INFO 2022-11-03 08:08:36,946 org.hibernate.dialect.Dialect- HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+INFO 2022-11-03 08:08:37,385 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO 2022-11-03 08:08:37,392 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 08:08:37,392 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN 2022-11-03 08:08:37,701 org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+WARN 2022-11-03 08:08:37,701 org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO 2022-11-03 08:08:37,933 org.apache.juli.logging.DirectJDKLog- Starting ProtocolHandler ["http-nio-8080"]
+INFO 2022-11-03 08:08:37,947 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2022-11-03 08:08:37,947 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2022-11-03 08:08:38,126 org.springframework.boot.StartupInfoLogger- Started EmployeeServiceApplication in 2.799 seconds (JVM running for 3.332)
+INFO 2022-11-03 08:09:23,119 org.apache.juli.logging.DirectJDKLog- Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2022-11-03 08:09:23,120 org.springframework.web.servlet.FrameworkServlet- Initializing Servlet 'dispatcherServlet'
+INFO 2022-11-03 08:09:23,120 org.springframework.web.servlet.FrameworkServlet- Initializing Servlet 'dispatcherServlet'
+INFO 2022-11-03 08:09:23,121 org.springframework.web.servlet.FrameworkServlet- Completed initialization in 1 ms
+INFO 2022-11-03 08:09:23,121 org.springframework.web.servlet.FrameworkServlet- Completed initialization in 1 ms
+ERROR 2022-11-03 08:10:09,767 org.apache.juli.logging.DirectJDKLog- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.client.HttpClientErrorException$NotFound: 404 : "{"timestamp":1667488209740,"status":404,"error":"Not Found","path":"/update/1"}"] with root cause
+org.springframework.web.client.HttpClientErrorException$NotFound: 404 : "{"timestamp":1667488209740,"status":404,"error":"Not Found","path":"/update/1"}"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:113)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:168)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:122)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:819)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:777)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at com.iways.employeeservice.controller.EmployeeController.update(EmployeeController.java:110)
+	at com.iways.employeeservice.controller.EmployeeController$$FastClassBySpringCGLIB$$a3c4ec67.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:123)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.iways.employeeservice.controller.EmployeeController$$EnhancerBySpringCGLIB$$97c95a2f.update(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:920)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:684)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+WARN 2022-11-03 08:33:50,649 com.zaxxer.hikari.pool.HikariPool$HouseKeeper- HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m43s508ms389µs500ns).
+INFO 2022-11-03 08:38:59,384 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 08:38:59,384 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 08:38:59,386 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown initiated...
+INFO 2022-11-03 08:38:59,393 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown completed.
+INFO 2022-11-03 08:39:20,332 org.springframework.boot.StartupInfoLogger- Starting EmployeeServiceApplication using Java 11.0.16 on DESKTOP-EQ3BJ36 with PID 14468 (C:\Users\RAYYMAN TECH\Documents\GitHub\employee-service\target\classes started by RAYYMAN TECH in C:\Users\RAYYMAN TECH\Documents\GitHub\employee-service)
+INFO 2022-11-03 08:39:20,333 org.hibernate.validator.internal.util.Version- HV000001: Hibernate Validator 6.2.5.Final
+INFO 2022-11-03 08:39:20,334 org.springframework.boot.SpringApplication- No active profile set, falling back to 1 default profile: "default"
+INFO 2022-11-03 08:39:20,906 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO 2022-11-03 08:39:20,906 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO 2022-11-03 08:39:20,938 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interfaces.
+INFO 2022-11-03 08:39:20,938 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interfaces.
+INFO 2022-11-03 08:39:21,264 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+INFO 2022-11-03 08:39:21,264 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+INFO 2022-11-03 08:39:21,269 org.apache.juli.logging.DirectJDKLog- Initializing ProtocolHandler ["http-nio-8080"]
+INFO 2022-11-03 08:39:21,269 org.apache.juli.logging.DirectJDKLog- Starting service [Tomcat]
+INFO 2022-11-03 08:39:21,270 org.apache.juli.logging.DirectJDKLog- Starting Servlet engine: [Apache Tomcat/9.0.65]
+INFO 2022-11-03 08:39:21,344 org.apache.juli.logging.DirectJDKLog- Initializing Spring embedded WebApplicationContext
+INFO 2022-11-03 08:39:21,345 org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 985 ms
+INFO 2022-11-03 08:39:21,345 org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 985 ms
+INFO 2022-11-03 08:39:21,413 org.hibernate.jpa.internal.util.LogHelper- HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO 2022-11-03 08:39:21,436 org.hibernate.Version- HHH000412: Hibernate ORM core version 5.6.11.Final
+INFO 2022-11-03 08:39:21,508 org.hibernate.annotations.common.reflection.java.JavaReflectionManager- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO 2022-11-03 08:39:21,563 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Starting...
+INFO 2022-11-03 08:39:21,730 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Start completed.
+INFO 2022-11-03 08:39:21,741 org.hibernate.dialect.Dialect- HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+INFO 2022-11-03 08:39:22,102 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO 2022-11-03 08:39:22,108 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 08:39:22,108 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN 2022-11-03 08:39:22,547 org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+WARN 2022-11-03 08:39:22,547 org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO 2022-11-03 08:39:22,786 org.apache.juli.logging.DirectJDKLog- Starting ProtocolHandler ["http-nio-8080"]
+INFO 2022-11-03 08:39:22,798 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2022-11-03 08:39:22,798 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2022-11-03 08:39:22,963 org.springframework.boot.StartupInfoLogger- Started EmployeeServiceApplication in 2.835 seconds (JVM running for 3.635)
+INFO 2022-11-03 08:39:52,471 org.apache.juli.logging.DirectJDKLog- Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2022-11-03 08:39:52,471 org.springframework.web.servlet.FrameworkServlet- Initializing Servlet 'dispatcherServlet'
+INFO 2022-11-03 08:39:52,471 org.springframework.web.servlet.FrameworkServlet- Initializing Servlet 'dispatcherServlet'
+INFO 2022-11-03 08:39:52,473 org.springframework.web.servlet.FrameworkServlet- Completed initialization in 2 ms
+INFO 2022-11-03 08:39:52,473 org.springframework.web.servlet.FrameworkServlet- Completed initialization in 2 ms
+ERROR 2022-11-03 08:40:04,695 org.apache.juli.logging.DirectJDKLog- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.client.HttpClientErrorException$NotFound: 404 : "{"timestamp":1667490004622,"status":404,"error":"Not Found","path":"/delete/1"}"] with root cause
+org.springframework.web.client.HttpClientErrorException$NotFound: 404 : "{"timestamp":1667490004622,"status":404,"error":"Not Found","path":"/delete/1"}"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:113)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:168)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:122)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:819)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:777)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at com.iways.employeeservice.controller.EmployeeController.deleteStudent(EmployeeController.java:120)
+	at com.iways.employeeservice.controller.EmployeeController$$FastClassBySpringCGLIB$$a3c4ec67.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:123)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.iways.employeeservice.controller.EmployeeController$$EnhancerBySpringCGLIB$$f7fec7a6.deleteStudent(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO 2022-11-03 08:41:21,010 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 08:41:21,010 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 08:41:21,013 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown initiated...
+INFO 2022-11-03 08:41:21,020 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown completed.
+INFO 2022-11-03 08:41:27,255 org.springframework.boot.StartupInfoLogger- Starting EmployeeServiceApplication using Java 11.0.16 on DESKTOP-EQ3BJ36 with PID 340 (C:\Users\RAYYMAN TECH\Documents\GitHub\employee-service\target\classes started by RAYYMAN TECH in C:\Users\RAYYMAN TECH\Documents\GitHub\employee-service)
+INFO 2022-11-03 08:41:27,257 org.hibernate.validator.internal.util.Version- HV000001: Hibernate Validator 6.2.5.Final
+INFO 2022-11-03 08:41:27,258 org.springframework.boot.SpringApplication- No active profile set, falling back to 1 default profile: "default"
+INFO 2022-11-03 08:41:27,774 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO 2022-11-03 08:41:27,774 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO 2022-11-03 08:41:27,803 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interfaces.
+INFO 2022-11-03 08:41:27,803 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interfaces.
+INFO 2022-11-03 08:41:28,131 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+INFO 2022-11-03 08:41:28,131 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+INFO 2022-11-03 08:41:28,137 org.apache.juli.logging.DirectJDKLog- Initializing ProtocolHandler ["http-nio-8080"]
+INFO 2022-11-03 08:41:28,138 org.apache.juli.logging.DirectJDKLog- Starting service [Tomcat]
+INFO 2022-11-03 08:41:28,138 org.apache.juli.logging.DirectJDKLog- Starting Servlet engine: [Apache Tomcat/9.0.65]
+INFO 2022-11-03 08:41:28,220 org.apache.juli.logging.DirectJDKLog- Initializing Spring embedded WebApplicationContext
+INFO 2022-11-03 08:41:28,221 org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 936 ms
+INFO 2022-11-03 08:41:28,221 org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 936 ms
+INFO 2022-11-03 08:41:28,292 org.hibernate.jpa.internal.util.LogHelper- HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO 2022-11-03 08:41:28,316 org.hibernate.Version- HHH000412: Hibernate ORM core version 5.6.11.Final
+INFO 2022-11-03 08:41:28,388 org.hibernate.annotations.common.reflection.java.JavaReflectionManager- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO 2022-11-03 08:41:28,448 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Starting...
+INFO 2022-11-03 08:41:28,637 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Start completed.
+INFO 2022-11-03 08:41:28,647 org.hibernate.dialect.Dialect- HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+INFO 2022-11-03 08:41:29,023 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO 2022-11-03 08:41:29,029 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 08:41:29,029 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN 2022-11-03 08:41:29,356 org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+WARN 2022-11-03 08:41:29,356 org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO 2022-11-03 08:41:29,568 org.apache.juli.logging.DirectJDKLog- Starting ProtocolHandler ["http-nio-8080"]
+INFO 2022-11-03 08:41:29,581 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2022-11-03 08:41:29,581 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2022-11-03 08:41:29,741 org.springframework.boot.StartupInfoLogger- Started EmployeeServiceApplication in 2.696 seconds (JVM running for 3.224)
+INFO 2022-11-03 08:42:03,300 org.apache.juli.logging.DirectJDKLog- Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2022-11-03 08:42:03,300 org.springframework.web.servlet.FrameworkServlet- Initializing Servlet 'dispatcherServlet'
+INFO 2022-11-03 08:42:03,300 org.springframework.web.servlet.FrameworkServlet- Initializing Servlet 'dispatcherServlet'
+INFO 2022-11-03 08:42:03,303 org.springframework.web.servlet.FrameworkServlet- Completed initialization in 3 ms
+INFO 2022-11-03 08:42:03,303 org.springframework.web.servlet.FrameworkServlet- Completed initialization in 3 ms
+ERROR 2022-11-03 08:42:20,486 org.apache.juli.logging.DirectJDKLog- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.client.HttpClientErrorException$NotFound: 404 : "{"timestamp":1667490140413,"status":404,"error":"Not Found","path":"/delete/1"}"] with root cause
+org.springframework.web.client.HttpClientErrorException$NotFound: 404 : "{"timestamp":1667490140413,"status":404,"error":"Not Found","path":"/delete/1"}"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:113)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:168)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:122)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:819)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:777)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at com.iways.employeeservice.controller.EmployeeController.deleteStudent(EmployeeController.java:120)
+	at com.iways.employeeservice.controller.EmployeeController$$FastClassBySpringCGLIB$$a3c4ec67.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:123)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.iways.employeeservice.controller.EmployeeController$$EnhancerBySpringCGLIB$$c0ebedad.deleteStudent(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO 2022-11-03 08:45:15,784 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 08:45:15,784 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 08:45:15,786 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown initiated...
+INFO 2022-11-03 08:45:15,797 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown completed.
+INFO 2022-11-03 08:45:21,993 org.hibernate.validator.internal.util.Version- HV000001: Hibernate Validator 6.2.5.Final
+INFO 2022-11-03 08:45:21,995 org.springframework.boot.StartupInfoLogger- Starting EmployeeServiceApplication using Java 11.0.16 on DESKTOP-EQ3BJ36 with PID 8532 (C:\Users\RAYYMAN TECH\Documents\GitHub\employee-service\target\classes started by RAYYMAN TECH in C:\Users\RAYYMAN TECH\Documents\GitHub\employee-service)
+INFO 2022-11-03 08:45:21,997 org.springframework.boot.SpringApplication- No active profile set, falling back to 1 default profile: "default"
+INFO 2022-11-03 08:45:22,561 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO 2022-11-03 08:45:22,561 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO 2022-11-03 08:45:22,598 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interfaces.
+INFO 2022-11-03 08:45:22,598 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interfaces.
+INFO 2022-11-03 08:45:22,928 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+INFO 2022-11-03 08:45:22,928 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+INFO 2022-11-03 08:45:22,934 org.apache.juli.logging.DirectJDKLog- Initializing ProtocolHandler ["http-nio-8080"]
+INFO 2022-11-03 08:45:22,934 org.apache.juli.logging.DirectJDKLog- Starting service [Tomcat]
+INFO 2022-11-03 08:45:22,935 org.apache.juli.logging.DirectJDKLog- Starting Servlet engine: [Apache Tomcat/9.0.65]
+INFO 2022-11-03 08:45:23,016 org.apache.juli.logging.DirectJDKLog- Initializing Spring embedded WebApplicationContext
+INFO 2022-11-03 08:45:23,016 org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 988 ms
+INFO 2022-11-03 08:45:23,016 org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 988 ms
+INFO 2022-11-03 08:45:23,094 org.hibernate.jpa.internal.util.LogHelper- HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO 2022-11-03 08:45:23,122 org.hibernate.Version- HHH000412: Hibernate ORM core version 5.6.11.Final
+INFO 2022-11-03 08:45:23,205 org.hibernate.annotations.common.reflection.java.JavaReflectionManager- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO 2022-11-03 08:45:23,258 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Starting...
+INFO 2022-11-03 08:45:23,443 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Start completed.
+INFO 2022-11-03 08:45:23,453 org.hibernate.dialect.Dialect- HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+INFO 2022-11-03 08:45:23,831 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO 2022-11-03 08:45:23,835 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 08:45:23,835 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN 2022-11-03 08:45:24,159 org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+WARN 2022-11-03 08:45:24,159 org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO 2022-11-03 08:45:24,379 org.apache.juli.logging.DirectJDKLog- Starting ProtocolHandler ["http-nio-8080"]
+INFO 2022-11-03 08:45:24,392 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2022-11-03 08:45:24,392 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2022-11-03 08:45:24,549 org.springframework.boot.StartupInfoLogger- Started EmployeeServiceApplication in 2.778 seconds (JVM running for 3.365)
+INFO 2022-11-03 08:45:48,686 org.apache.juli.logging.DirectJDKLog- Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2022-11-03 08:45:48,687 org.springframework.web.servlet.FrameworkServlet- Initializing Servlet 'dispatcherServlet'
+INFO 2022-11-03 08:45:48,687 org.springframework.web.servlet.FrameworkServlet- Initializing Servlet 'dispatcherServlet'
+INFO 2022-11-03 08:45:48,689 org.springframework.web.servlet.FrameworkServlet- Completed initialization in 2 ms
+INFO 2022-11-03 08:45:48,689 org.springframework.web.servlet.FrameworkServlet- Completed initialization in 2 ms
+ERROR 2022-11-03 08:45:56,770 org.apache.juli.logging.DirectJDKLog- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.client.HttpClientErrorException$NotFound: 404 : "{"timestamp":1667490356698,"status":404,"error":"Not Found","path":"/delete/1"}"] with root cause
+org.springframework.web.client.HttpClientErrorException$NotFound: 404 : "{"timestamp":1667490356698,"status":404,"error":"Not Found","path":"/delete/1"}"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:113)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:168)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:122)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:819)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:777)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at com.iways.employeeservice.controller.EmployeeController.deleteStudent(EmployeeController.java:120)
+	at com.iways.employeeservice.controller.EmployeeController$$FastClassBySpringCGLIB$$a3c4ec67.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:123)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.iways.employeeservice.controller.EmployeeController$$EnhancerBySpringCGLIB$$85863253.deleteStudent(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO 2022-11-03 08:47:59,831 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 08:47:59,831 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 08:47:59,833 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown initiated...
+INFO 2022-11-03 08:47:59,841 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown completed.
+INFO 2022-11-03 08:48:03,946 org.hibernate.validator.internal.util.Version- HV000001: Hibernate Validator 6.2.5.Final
+INFO 2022-11-03 08:48:03,946 org.springframework.boot.StartupInfoLogger- Starting EmployeeServiceApplication using Java 11.0.16 on DESKTOP-EQ3BJ36 with PID 16796 (C:\Users\RAYYMAN TECH\Documents\GitHub\employee-service\target\classes started by RAYYMAN TECH in C:\Users\RAYYMAN TECH\Documents\GitHub\employee-service)
+INFO 2022-11-03 08:48:03,948 org.springframework.boot.SpringApplication- No active profile set, falling back to 1 default profile: "default"
+INFO 2022-11-03 08:48:04,463 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO 2022-11-03 08:48:04,463 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO 2022-11-03 08:48:04,497 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interfaces.
+INFO 2022-11-03 08:48:04,497 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interfaces.
+INFO 2022-11-03 08:48:04,775 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+INFO 2022-11-03 08:48:04,775 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+INFO 2022-11-03 08:48:04,779 org.apache.juli.logging.DirectJDKLog- Initializing ProtocolHandler ["http-nio-8080"]
+INFO 2022-11-03 08:48:04,779 org.apache.juli.logging.DirectJDKLog- Starting service [Tomcat]
+INFO 2022-11-03 08:48:04,780 org.apache.juli.logging.DirectJDKLog- Starting Servlet engine: [Apache Tomcat/9.0.65]
+INFO 2022-11-03 08:48:04,854 org.apache.juli.logging.DirectJDKLog- Initializing Spring embedded WebApplicationContext
+INFO 2022-11-03 08:48:04,854 org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 880 ms
+INFO 2022-11-03 08:48:04,854 org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 880 ms
+INFO 2022-11-03 08:48:04,915 org.hibernate.jpa.internal.util.LogHelper- HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO 2022-11-03 08:48:04,936 org.hibernate.Version- HHH000412: Hibernate ORM core version 5.6.11.Final
+INFO 2022-11-03 08:48:04,999 org.hibernate.annotations.common.reflection.java.JavaReflectionManager- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO 2022-11-03 08:48:05,045 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Starting...
+INFO 2022-11-03 08:48:05,182 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Start completed.
+INFO 2022-11-03 08:48:05,191 org.hibernate.dialect.Dialect- HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+INFO 2022-11-03 08:48:05,488 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO 2022-11-03 08:48:05,492 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 08:48:05,492 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN 2022-11-03 08:48:05,774 org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+WARN 2022-11-03 08:48:05,774 org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO 2022-11-03 08:48:05,969 org.apache.juli.logging.DirectJDKLog- Starting ProtocolHandler ["http-nio-8080"]
+INFO 2022-11-03 08:48:05,980 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2022-11-03 08:48:05,980 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2022-11-03 08:48:06,125 org.springframework.boot.StartupInfoLogger- Started EmployeeServiceApplication in 2.377 seconds (JVM running for 2.894)
+INFO 2022-11-03 08:48:49,299 org.apache.juli.logging.DirectJDKLog- Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2022-11-03 08:48:49,299 org.springframework.web.servlet.FrameworkServlet- Initializing Servlet 'dispatcherServlet'
+INFO 2022-11-03 08:48:49,299 org.springframework.web.servlet.FrameworkServlet- Initializing Servlet 'dispatcherServlet'
+INFO 2022-11-03 08:48:49,300 org.springframework.web.servlet.FrameworkServlet- Completed initialization in 1 ms
+INFO 2022-11-03 08:48:49,300 org.springframework.web.servlet.FrameworkServlet- Completed initialization in 1 ms
+ERROR 2022-11-03 08:48:56,604 org.apache.juli.logging.DirectJDKLog- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.client.HttpClientErrorException$NotFound: 404 : "{"timestamp":1667490536533,"status":404,"error":"Not Found","path":"/delete/1"}"] with root cause
+org.springframework.web.client.HttpClientErrorException$NotFound: 404 : "{"timestamp":1667490536533,"status":404,"error":"Not Found","path":"/delete/1"}"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:113)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:168)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:122)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:819)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:777)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at com.iways.employeeservice.controller.EmployeeController.deleteStudent(EmployeeController.java:120)
+	at com.iways.employeeservice.controller.EmployeeController$$FastClassBySpringCGLIB$$a3c4ec67.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:123)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.iways.employeeservice.controller.EmployeeController$$EnhancerBySpringCGLIB$$4c7bf04d.deleteStudent(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+ERROR 2022-11-03 08:51:34,721 org.apache.juli.logging.DirectJDKLog- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.client.HttpClientErrorException$NotFound: 404 : "{"timestamp":1667490694717,"status":404,"error":"Not Found","path":"/update/1"}"] with root cause
+org.springframework.web.client.HttpClientErrorException$NotFound: 404 : "{"timestamp":1667490694717,"status":404,"error":"Not Found","path":"/update/1"}"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:113)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:168)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:122)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:819)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:777)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at com.iways.employeeservice.controller.EmployeeController.update(EmployeeController.java:110)
+	at com.iways.employeeservice.controller.EmployeeController$$FastClassBySpringCGLIB$$a3c4ec67.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:123)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.iways.employeeservice.controller.EmployeeController$$EnhancerBySpringCGLIB$$4c7bf04d.update(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:920)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:684)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO 2022-11-03 08:54:36,386 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 08:54:36,386 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 08:54:36,388 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown initiated...
+INFO 2022-11-03 08:54:36,395 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown completed.
+INFO 2022-11-03 08:54:40,589 org.springframework.boot.StartupInfoLogger- Starting EmployeeServiceApplication using Java 11.0.16 on DESKTOP-EQ3BJ36 with PID 16848 (C:\Users\RAYYMAN TECH\Documents\GitHub\employee-service\target\classes started by RAYYMAN TECH in C:\Users\RAYYMAN TECH\Documents\GitHub\employee-service)
+INFO 2022-11-03 08:54:40,588 org.hibernate.validator.internal.util.Version- HV000001: Hibernate Validator 6.2.5.Final
+INFO 2022-11-03 08:54:40,592 org.springframework.boot.SpringApplication- No active profile set, falling back to 1 default profile: "default"
+INFO 2022-11-03 08:54:41,141 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO 2022-11-03 08:54:41,141 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO 2022-11-03 08:54:41,170 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interfaces.
+INFO 2022-11-03 08:54:41,170 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interfaces.
+INFO 2022-11-03 08:54:41,472 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+INFO 2022-11-03 08:54:41,472 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+INFO 2022-11-03 08:54:41,477 org.apache.juli.logging.DirectJDKLog- Initializing ProtocolHandler ["http-nio-8080"]
+INFO 2022-11-03 08:54:41,477 org.apache.juli.logging.DirectJDKLog- Starting service [Tomcat]
+INFO 2022-11-03 08:54:41,478 org.apache.juli.logging.DirectJDKLog- Starting Servlet engine: [Apache Tomcat/9.0.65]
+INFO 2022-11-03 08:54:41,551 org.apache.juli.logging.DirectJDKLog- Initializing Spring embedded WebApplicationContext
+INFO 2022-11-03 08:54:41,551 org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 930 ms
+INFO 2022-11-03 08:54:41,551 org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 930 ms
+INFO 2022-11-03 08:54:41,613 org.hibernate.jpa.internal.util.LogHelper- HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO 2022-11-03 08:54:41,635 org.hibernate.Version- HHH000412: Hibernate ORM core version 5.6.11.Final
+INFO 2022-11-03 08:54:41,703 org.hibernate.annotations.common.reflection.java.JavaReflectionManager- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO 2022-11-03 08:54:41,761 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Starting...
+INFO 2022-11-03 08:54:41,905 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Start completed.
+INFO 2022-11-03 08:54:41,917 org.hibernate.dialect.Dialect- HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+INFO 2022-11-03 08:54:42,223 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO 2022-11-03 08:54:42,228 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-03 08:54:42,228 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN 2022-11-03 08:54:42,522 org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+WARN 2022-11-03 08:54:42,522 org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO 2022-11-03 08:54:42,717 org.apache.juli.logging.DirectJDKLog- Starting ProtocolHandler ["http-nio-8080"]
+INFO 2022-11-03 08:54:42,731 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2022-11-03 08:54:42,731 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2022-11-03 08:54:42,934 org.springframework.boot.StartupInfoLogger- Started EmployeeServiceApplication in 2.558 seconds (JVM running for 3.073)
+INFO 2022-11-03 08:55:33,300 org.apache.juli.logging.DirectJDKLog- Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2022-11-03 08:55:33,301 org.springframework.web.servlet.FrameworkServlet- Initializing Servlet 'dispatcherServlet'
+INFO 2022-11-03 08:55:33,301 org.springframework.web.servlet.FrameworkServlet- Initializing Servlet 'dispatcherServlet'
+INFO 2022-11-03 08:55:33,303 org.springframework.web.servlet.FrameworkServlet- Completed initialization in 2 ms
+INFO 2022-11-03 08:55:33,303 org.springframework.web.servlet.FrameworkServlet- Completed initialization in 2 ms
+ERROR 2022-11-03 08:55:48,752 org.apache.juli.logging.DirectJDKLog- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.client.HttpClientErrorException$NotFound: 404 : "{"timestamp":1667490948696,"status":404,"error":"Not Found","path":"/delete/1"}"] with root cause
+org.springframework.web.client.HttpClientErrorException$NotFound: 404 : "{"timestamp":1667490948696,"status":404,"error":"Not Found","path":"/delete/1"}"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:113)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:168)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:122)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:819)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:777)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at com.iways.employeeservice.controller.EmployeeController.deleteStudent(EmployeeController.java:121)
+	at com.iways.employeeservice.controller.EmployeeController$$FastClassBySpringCGLIB$$a3c4ec67.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:123)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.iways.employeeservice.controller.EmployeeController$$EnhancerBySpringCGLIB$$2875b142.deleteStudent(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+ERROR 2022-11-03 08:56:20,573 org.apache.juli.logging.DirectJDKLog- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.client.HttpClientErrorException$NotFound: 404 : "{"timestamp":1667490980569,"status":404,"error":"Not Found","path":"/update/1"}"] with root cause
+org.springframework.web.client.HttpClientErrorException$NotFound: 404 : "{"timestamp":1667490980569,"status":404,"error":"Not Found","path":"/update/1"}"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:113)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:168)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:122)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:819)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:777)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at com.iways.employeeservice.controller.EmployeeController.update(EmployeeController.java:110)
+	at com.iways.employeeservice.controller.EmployeeController$$FastClassBySpringCGLIB$$a3c4ec67.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:123)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.iways.employeeservice.controller.EmployeeController$$EnhancerBySpringCGLIB$$2875b142.update(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:920)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:684)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
