@@ -5,10 +5,12 @@ import com.iways.employeeservice.domain.Student;
 import com.iways.employeeservice.dto.EmployeeDto;
 import com.iways.employeeservice.dto.StudentDto;
 import com.iways.employeeservice.service.EmployeeService;
-import io.swagger.models.HttpMethod;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.catalina.Service;
 import org.springframework.data.domain.Page;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.MediaType;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
@@ -23,10 +25,16 @@ import java.util.Optional;
 public class EmployeeController {
 
     private final EmployeeService employeeService;
-    private RestTemplate restTemplate;
 
     public EmployeeController(EmployeeService employeeService) {
         this.employeeService = employeeService;
+    }
+    @GetMapping("/employee")
+    public List<Employee> getAllEmployees(){
+        return Arrays.asList(
+                new Employee("name", "address", "phone", "cnic"),
+                new Employee("Uzair Zaheer", "Lahore", "03104983997", "35000"));
+
     }
 
     @PostMapping("/create")
@@ -81,14 +89,18 @@ public class EmployeeController {
 
 
     }
-    @GetMapping("/createStudent")
-    public String createStudent(StudentDto studentDto){
-
+    @PostMapping("/createStudent")
+    public String createStudent(@RequestBody StudentDto studentDto){
         RestTemplate restTemplate = new RestTemplate();
-          String url = "http://localhost:8081/students";
-          return restTemplate.getForObject(url, String.class);
+        HttpHeaders headers = new HttpHeaders();
+        headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
+        HttpEntity<StudentDto> entity = new HttpEntity<>(studentDto, headers);
+
+        return restTemplate.exchange(
+                "http://localhost:8081/create", HttpMethod.POST, entity, String.class).getBody();
 
     }
+    @
 
 
 }
