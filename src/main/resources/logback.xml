@@ -1,0 +1,81 @@
+<configuration scan="true">
+    
+    <property name="employee-management-service" value="employee-management-service" />
+    <!-- CONSOLE -->
+    <appender name="CONSOLE"
+              class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <Pattern>%p %d [%t] %L - %m%n</Pattern>
+        </encoder>
+    </appender>
+    <!-- Appenders -->
+    <!-- APPLICATION -->
+    <appender name="APPLICATION"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>application.log</file>
+        <append>true</append>
+        <rollingPolicy
+            class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>log.%d{yyyy-MM-dd}%i.log</fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy
+                class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <!-- or whenever the file size reaches 10MB -->
+                <maxFileSize>10MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+            <!-- keep 30 days' worth of history -->
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+
+        <encoder
+            class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+            <charset>UTF-8</charset>
+            <layout class="ch.qos.logback.classic.PatternLayout">
+                <Pattern>%p %d %class- %m%n</Pattern>
+            </layout>
+        </encoder>
+    </appender>
+    <!-- DEFAULT -->
+    <appender name="DEFAULT"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>employee-management-service.log</file>
+        <append>true</append>
+        <rollingPolicy
+            class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>employee-management-service.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy
+                class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <!-- or whenever the file size reaches 100MB -->
+                <maxFileSize>10MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+            <!-- keep 30 days' worth of history -->
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder
+            class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+            <charset>UTF-8</charset>
+            <layout class="ch.qos.logback.classic.PatternLayout">
+                <Pattern>%p %d %class- %m%n</Pattern>
+            </layout>
+        </encoder>
+    </appender>
+
+    <!-- Loggers -->
+    <logger name="application" level="INFO" additivity="true">
+        <appender-ref ref="CONSOLE" />
+        <appender-ref ref="APPLICATION" />
+    </logger>
+    
+    <logger name="org.springframework" level="INFO" >
+        <appender-ref ref="DEFAULT" />
+    </logger>
+
+
+    <!-- By default, the level of the root level is set to DEBUG -->
+    <root level="INFO">
+        <appender-ref ref="CONSOLE" />
+        <appender-ref ref="DEFAULT" />
+    </root>
+
+</configuration>
