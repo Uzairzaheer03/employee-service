@@ -115,7 +115,7 @@ public class EmployeeController {
         HttpEntity<StudentDto> entity = new HttpEntity<>(studentDto, headers);
 
         return restTemplate.exchange(
-                "http://localhost:8081/update/" + id, HttpMethod.PUT, entity, String.class).getBody();
+                "http://localhost:8081/update?id=" + id, HttpMethod.PUT, entity, String.class).getBody();
     }
 
     @DeleteMapping("/deleteStudent")
@@ -127,14 +127,14 @@ public class EmployeeController {
         HttpEntity<Student> entity = new HttpEntity<Student>(headers);
 
         return restTemplate.exchange(
-                "http://localhost:8081/delete/" + id, HttpMethod.DELETE, entity, String.class).getBody();
+                "http://localhost:8081/delete?id=" + id, HttpMethod.DELETE, entity, String.class).getBody();
     }
 
     @GetMapping("/studentByCity")
     public String studentByCity(@RequestParam String city) {
 
         RestTemplate restTemplate = new RestTemplate();
-        String url = "http://localhost:8081/getStudentByCity";
+        String url = "http://localhost:8081/getStudentByCity?city=" + city;
         return restTemplate.getForObject(url, String.class);
 
     }
@@ -144,11 +144,13 @@ public class EmployeeController {
                                 @RequestParam(value = "pageSize", defaultValue = "3", required = false) Integer pageSize) {
         RestTemplate restTemplate = new RestTemplate();
         HttpHeaders headers = new HttpHeaders();
-        headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
-        HttpEntity<Student> entity = new HttpEntity<>(headers);
-
-        return restTemplate.exchange(
-                "http://localhost:8081/studentByPage/", HttpMethod.DELETE, entity, String.class).getBody();
+        String url = "http://localhost:8081/studentByPage?pageNumber=&pageSize=" + pageNumber + pageSize ;
+        return restTemplate.getForObject(url, String.class);
     }
-
+    @GetMapping("/studentById")
+    public Optional<Student> getStudentById(@RequestParam int id) {
+        RestTemplate restTemplate = new RestTemplate();
+        String url = "http://localhost:8081/getByStudentId?id=" + id;
+        return restTemplate.getForObject(url, Optional.class);
+    }
 }
