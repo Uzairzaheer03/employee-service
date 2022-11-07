@@ -144,7 +144,8 @@ public class EmployeeController {
                                 @RequestParam(value = "pageSize", defaultValue = "3", required = false) Integer pageSize) {
         RestTemplate restTemplate = new RestTemplate();
         HttpHeaders headers = new HttpHeaders();
-        String url = "http://localhost:8081/studentByPage?pageNumber=&pageSize=" + pageNumber + pageSize;
+        String url = "http://localhost:8081/studentByPage?pageNumber="+pageNumber +"&pageSize="+pageSize;
+        log.info("Request recieved for String {}", url  );
         return restTemplate.getForObject(url, String.class);
     }
     @GetMapping("/studentById")
@@ -153,4 +154,5 @@ public class EmployeeController {
         String url = "http://localhost:8081/getByStudentId?id=" + id;
         return restTemplate.getForObject(url, Optional.class);
     }
+
 }
