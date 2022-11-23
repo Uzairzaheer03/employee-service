@@ -1,5 +1,6 @@
 package com.iways.employeeservice.service;
 import com.iways.employeeservice.domain.Employee;
+import com.iways.employeeservice.domain.Salary;
 import com.iways.employeeservice.dto.EmployeeDto;
 import com.iways.employeeservice.employeeservice.repository.EmployeeRepository;
 import lombok.extern.slf4j.Slf4j;
@@ -23,11 +24,19 @@ public class EmployeeService {
 
     }
 
-    public String createEmployee(EmployeeDto employeeDto) {
-        Employee employee = new Employee(employeeDto.getName(), employeeDto.getAddress(), employeeDto.getPhone(), employeeDto.getCnic());
-        employeeRepository.save(employee);
+    public Employee createEmployee(EmployeeDto employeeDto) {
+        Employee employee = new Employee();
+        employee.setCnic(employeeDto.getCnic());
+        employee.setAddress(employeeDto.getAddress());
+        employee.setPhone(employeeDto.getPhone());
+        employee.setName(employeeDto.getName());
+        Salary salary = new Salary();
+        salary.setPerYearSalary(employeeDto.getSalaryDto().getPerYearSalary());
+        salary.setMonthly(employeeDto.getSalaryDto().getMonthly());
+        salary.setTax(employeeDto.getSalaryDto().getTax());
+        employee.setSalary(salary);
         log.info("saved employee {}", employee);
-        return " saved employee";
+        return    employeeRepository.save(employee);
     }
 
     public Optional<Employee> getEmployee(int id) {

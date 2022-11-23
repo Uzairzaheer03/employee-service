@@ -2,6 +2,8 @@ package com.iways.employeeservice.dto;
 
 import lombok.*;
 
+import java.util.List;
+
 @Getter
 @Setter
 @ToString
@@ -13,5 +15,7 @@ public class StudentDto {
     private String email;
     private String phone;
     private String city;
-    
+
+
+    private List<CourseDto> courseDtos;
 }

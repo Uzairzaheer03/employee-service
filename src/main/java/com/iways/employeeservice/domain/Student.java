@@ -4,10 +4,8 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Getter
@@ -24,16 +22,8 @@ public class Student {
     private String city;
 
 
-    public Student(String name, String email, String phone, String city) {
-        this.name=name;
-        this.email=email;
-        this.phone=phone;
-        this.city=city;
-    }
-    public Student() {
-
-    }
-
-
+    @JoinColumn(name = "student_id")
+    @OneToMany(cascade = CascadeType.ALL)
+    private List<Course> courses;
 
 }

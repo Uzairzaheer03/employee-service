@@ -20,17 +20,6 @@ public class Employee {
     private String phone;
     private String cnic;
 
-
-    public Employee(String name, String address, String phone, String cnic) {
-        this.name = name;
-        this.address = address;
-        this.phone = phone;
-        this.cnic = cnic;
-    }
-
-    public Employee() {
-
-    }
-
-
+    @OneToOne(cascade = CascadeType.ALL)
+    private Salary salary;
 }
