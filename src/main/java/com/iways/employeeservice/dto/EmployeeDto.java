@@ -13,6 +13,7 @@ public class EmployeeDto {
     private String phone;
     private String cnic;
 
+    private SalaryDto salaryDto;
 }
 
 

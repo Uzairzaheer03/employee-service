@@ -1,5 +1,6 @@
 package com.iways.employeeservice.controller;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.iways.employeeservice.domain.Employee;
 import com.iways.employeeservice.domain.Student;
 import com.iways.employeeservice.dto.EmployeeDto;
@@ -30,16 +31,10 @@ public class EmployeeController {
         this.employeeService = employeeService;
     }
 
-    @GetMapping("/employee")
-    public List<Employee> getAllEmployees() {
-        return Arrays.asList(
-                new Employee("name", "address", "phone", "cnic"),
-                new Employee("Uzair Zaheer", "Lahore", "03104983997", "35000"));
 
-    }
 
     @PostMapping("/create")
-    public String create(@RequestBody EmployeeDto employeeDto) {
+    public Employee create(@RequestBody EmployeeDto employeeDto) throws JsonProcessingException {
         log.info("Request for create employeeDto {}", employeeDto);
         return employeeService.createEmployee(employeeDto);
 
