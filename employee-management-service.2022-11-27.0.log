@@ -1,0 +1,39 @@
+INFO 2022-11-27 23:20:09,113 org.springframework.boot.StartupInfoLogger- Starting EmployeeServiceApplication using Java 11.0.16 on DESKTOP-EQ3BJ36 with PID 12888 (C:\Users\RAYYMAN TECH\Documents\GitHub\employee-service\target\classes started by RAYYMAN TECH in C:\Users\RAYYMAN TECH\Documents\GitHub\employee-service)
+INFO 2022-11-27 23:20:09,113 org.hibernate.validator.internal.util.Version- HV000001: Hibernate Validator 6.2.5.Final
+INFO 2022-11-27 23:20:09,117 org.springframework.boot.SpringApplication- No active profile set, falling back to 1 default profile: "default"
+INFO 2022-11-27 23:20:09,853 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO 2022-11-27 23:20:09,853 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO 2022-11-27 23:20:09,934 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 50 ms. Found 2 JPA repository interfaces.
+INFO 2022-11-27 23:20:09,934 org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 50 ms. Found 2 JPA repository interfaces.
+INFO 2022-11-27 23:20:10,304 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+INFO 2022-11-27 23:20:10,304 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+INFO 2022-11-27 23:20:10,313 org.apache.juli.logging.DirectJDKLog- Initializing ProtocolHandler ["http-nio-8080"]
+INFO 2022-11-27 23:20:10,314 org.apache.juli.logging.DirectJDKLog- Starting service [Tomcat]
+INFO 2022-11-27 23:20:10,314 org.apache.juli.logging.DirectJDKLog- Starting Servlet engine: [Apache Tomcat/9.0.65]
+INFO 2022-11-27 23:20:10,423 org.apache.juli.logging.DirectJDKLog- Initializing Spring embedded WebApplicationContext
+INFO 2022-11-27 23:20:10,424 org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 1270 ms
+INFO 2022-11-27 23:20:10,424 org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 1270 ms
+INFO 2022-11-27 23:20:10,531 org.hibernate.jpa.internal.util.LogHelper- HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO 2022-11-27 23:20:10,584 org.hibernate.Version- HHH000412: Hibernate ORM core version 5.6.11.Final
+INFO 2022-11-27 23:20:10,690 org.hibernate.annotations.common.reflection.java.JavaReflectionManager- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO 2022-11-27 23:20:10,783 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Starting...
+INFO 2022-11-27 23:20:11,153 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Start completed.
+INFO 2022-11-27 23:20:11,171 org.hibernate.dialect.Dialect- HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+INFO 2022-11-27 23:20:11,651 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO 2022-11-27 23:20:11,657 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-27 23:20:11,657 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN 2022-11-27 23:20:12,043 org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+WARN 2022-11-27 23:20:12,043 org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO 2022-11-27 23:20:12,292 org.apache.juli.logging.DirectJDKLog- Starting ProtocolHandler ["http-nio-8080"]
+INFO 2022-11-27 23:20:12,305 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2022-11-27 23:20:12,305 org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+INFO 2022-11-27 23:20:12,500 org.springframework.boot.StartupInfoLogger- Started EmployeeServiceApplication in 3.65 seconds (JVM running for 4.414)
+INFO 2022-11-27 23:20:23,770 org.apache.juli.logging.DirectJDKLog- Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2022-11-27 23:20:23,770 org.springframework.web.servlet.FrameworkServlet- Initializing Servlet 'dispatcherServlet'
+INFO 2022-11-27 23:20:23,770 org.springframework.web.servlet.FrameworkServlet- Initializing Servlet 'dispatcherServlet'
+INFO 2022-11-27 23:20:23,772 org.springframework.web.servlet.FrameworkServlet- Completed initialization in 2 ms
+INFO 2022-11-27 23:20:23,772 org.springframework.web.servlet.FrameworkServlet- Completed initialization in 2 ms
+INFO 2022-11-27 23:55:38,763 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-27 23:55:38,763 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean- Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-11-27 23:55:38,766 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown initiated...
+INFO 2022-11-27 23:55:38,776 com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown completed.

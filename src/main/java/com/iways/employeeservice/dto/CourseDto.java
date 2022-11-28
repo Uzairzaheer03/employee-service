@@ -8,9 +8,10 @@ import lombok.*;
 @Setter
 @Getter
 public class CourseDto {
+
     private String courseName ;
 
-
+    private int scoreMarks;
 }
 
 
